@@ -30,7 +30,7 @@ const profileData = {
 };
 
   const profileDetails = [
-    { label: "Age", value: "25 Years" },
+    { label: "Age", value: "28 Years" },
     { label: "Height", value: `5'8"` },
     { label: "Religion", value: "Islam" },
     { label: "Caste", value: "Shaikh" },

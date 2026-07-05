@@ -25,7 +25,7 @@ function Details() {
 
   const details = [
     { label: "Full Name", value: "Md Faizanuzzaman" },
-    { label: "Date of Birth", value: "10 March 1999" },
+    { label: "Date of Birth", value: "10 March 1997" },
     { label: "Education", value: "M.Ed (Urdu)" },
     {
       label: "Islamic Studies",
