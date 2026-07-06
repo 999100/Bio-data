@@ -6,7 +6,7 @@ function Header() {
 
   return (
     <header className="header">
-      <h1>Portfolio</h1>
+      <h1>Bio-Data</h1>
       <p>Personal Profile Info</p>
     </header>
   );

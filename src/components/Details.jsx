@@ -25,14 +25,14 @@ function Details() {
 
   const details = [
     { label: "Full Name", value: "Md Faizanuzzaman" },
-    { label: "Date of Birth", value: "10 March 1997" },
-    { label: "Education", value: "M.Ed (Urdu)" },
+    { label: "Age", value: "27" },
+    { label: "Qualification", value: "M.Ed (Urdu)" },
     {
       label: "Islamic Studies",
       value: "Hafiz,Alim (Darul Uloom Nadwatul Ulama, Lucknow, UP)",
     },
-    { label: "Profession", value: "Government Teacher" },
-    { label: "School Name", value: "ABC Pvt Ltd" },
+    { label: "Profession", value: "Government Teacher(High School)" },
+    { label: "School Name", value: "PSP +2 High School Bithan, Samastipur" },
     { label: "Father", value: "Agriculturist" },
     { label: "Mother", value: "Housewife" },
     {

@@ -53,11 +53,14 @@ function Family() {
   //   { label: "Sister 3", value: "Name Here" },
   //   { label: "Sister 4", value: "Name Here" },
   // ];
+    const maternalGrandFatherDetails = [
+    { label: "Maternal Grand Father Name", value: "Md Ilyas" },
+    { label: "Place", value: "Rampur, Warisnagar" },
+  ];
 
   const grandFatherDetails = [
     { label: "Grand Father Name", value: "Md Moti-ur-Rahman" },
   ];
-
   const sonsDetails = [
     { label: "Son 1", value: "Md Qamaruzzaman (Father)" },
     { label: "Son 2", value: "Md Safi-ur-Rahman (Uncle)" },
@@ -117,6 +120,18 @@ function Family() {
           </p>
         ))}
       </div> */}
+       <h2 style={{ marginTop: "20px" }}>Maternal Grand Father Details</h2>
+      <div className="details-box">
+        {maternalGrandFatherDetails.map((item, index) => (
+          <p
+            key={index}
+            className="fade-item"
+            style={{ transitionDelay: `${(index + 18) * 0.1}s` }}
+          >
+            <b>{item.label}:</b> {item.value}
+          </p>
+        ))}
+      </div>
 
       <h2 style={{ marginTop: "20px" }}>Grand Father Details</h2>
       <div className="details-box">

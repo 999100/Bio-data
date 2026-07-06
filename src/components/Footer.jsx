@@ -24,7 +24,7 @@ function Footer() {
   }, []);
 
   const contactDetails = [
-    { label: "Mobile", value: "+91 9708371257" },
+    { label: "Mobile", value: "+91 6207153799" },
     { label: "WhatsApp", value: "+91 7296083183" },
     { label: "Email", value: "xxxxxx@gmail.com" },
     { label: "Address", value: "Balbhaddrapur, Samastipur, Bihar, 848132" },
@@ -45,10 +45,6 @@ function Footer() {
           <b>{item.label}:</b> {item.value}
         </p>
       ))}
-
-      <p className="small fade-item" style={{ transitionDelay: "0.7s" }}>
-        © 2026 Marriage Bio-Data
-      </p>
     </footer>
   );
 }
